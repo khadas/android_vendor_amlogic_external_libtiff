@@ -49,6 +49,7 @@ LOCAL_STATIC_LIBRARIES := \
   libz
 
 LOCAL_MODULE:= libtiff
+LOCAL_32_BIT_ONLY := true
 
 LOCAL_SHARED_LIBRARIES:= \
   libjpeg
